@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Vinayaka College &amp; School of Nursing | Sulthan Bathery, Wayanad</title>
 <meta name="description" content="Vinayaka College &amp; School of Nursing, Sulthan Bathery, Wayanad, Kerala. BSc Nursing and GNM programmes approved by the Indian Nursing Council and Kerala Nurses and Midwives Council and affiliated to KUHS.">
 <link rel="icon" href="https://vinayakacollegeofnursing.com/wp-content/uploads/2023/04/logo-1.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600;700&family=Nunito+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body data-page="home">
@@ -40,7 +40,7 @@
 <header class="site-header" id="siteHeader">
   <div class="container header__inner">
     <a class="brand" href="index.html">
-      <img src="https://vinayakacollegeofnursing.com/wp-content/uploads/2023/04/logo-1.png" alt="Vinayaka College and School of Nursing logo" width="52" height="23">
+      <img src="https://vinayakacollegeofnursing.com/wp-content/uploads/2023/04/logo-1.png" alt="Vinayaka College and School of Nursing logo" width="278" height="122" decoding="async" loading="lazy">
       <span class="brand__text">
         <span class="brand__name">Vinayaka College &amp; School of Nursing</span>
         <span class="brand__sub">Sulthan Bathery, Wayanad</span>
@@ -82,9 +82,7 @@
         <li><a class="nav__link" href="gallery.html">Gallery</a></li>
         <li><a class="nav__link" href="contact.html">Contact Us</a></li>
       </ul>
-      <div class="nav__cta"><a class="btn btn--primary" href="admission.html#enquiry">Apply Now</a>
-        <a class="btn btn--primary btn--sm" href="admission.html#enquiry">Apply Now</a>
-      </div>
+      <div class="nav__cta"><a class="btn btn--primary" href="admission.html#enquiry">Apply Now</a></div>
     </nav>
 
     <div class="header__cta">
@@ -97,47 +95,25 @@
 <main id="main">
 
   <!-- ============================ HERO ============================ -->
-  <section class="hero">
-    <div class="container hero__inner">
-      <div data-reveal>
-        <p class="hero__eyebrow">Vinayaka Educational &amp; Charitable Trust &middot; Established 2011</p>
-        <h1>Vinayaka College &amp; <em>School of Nursing</em></h1>
-        <p class="hero__lead">
-          Vinayaka College &amp; School of Nursing has its goal of planting and harvesting well qualified,
-          skilful and eminent nurses to meet the health needs of the population irrespective of caste,
-          creed, race, sex and religion.
-        </p>
-        <div class="btn-row">
-          <a class="btn btn--primary" href="admission.html#enquiry">Apply Now</a>
-          <a class="btn btn--onDark" href="courses.html">Explore Courses</a>
-          <a class="btn btn--onDark" href="https://api.whatsapp.com/send/?phone=7907846784&amp;text&amp;type=phone_number&amp;app_absent=0" target="_blank" rel="noopener">Chat on WhatsApp</a>
-        </div>
-        <ul class="hero__meta">
-          <li>
-            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
-            Old Shafi Road, Sulthan Bathery, Wayanad
-          </li>
-          <li>
-            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"/></svg>
-            04936-220371
-          </li>
-          <li>
-            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M22 10 12 5 2 10l10 5 10-5Z"/><path d="M6 12v5c0 1.7 2.7 3 6 3s6-1.3 6-3v-5"/></svg>
-            Affiliated to KUHS
-          </li>
-        </ul>
-      </div>
+  <section class="hero" id="hero">
+    <!-- If the page is opened as file:// the YouTube embed may show an error; use a local server or the live website. -->
+    <div class="hero__video" aria-hidden="true">
+      <div id="heroVideo"></div>
+      <video class="hero__video-el" id="heroVideoFile" muted playsinline preload="none" disablepictureinpicture disableremoteplayback></video>
+    </div>
+    <div class="hero__fallback" id="heroFallback" aria-hidden="true"></div>
+    <div class="hero__overlay" aria-hidden="true"></div>
 
-      <div class="hero__media" data-reveal="right" data-reveal-delay="2">
-        <div class="hero__media-grid">
-          <img class="tall" src="https://vinayakacollegeofnursing.com/wp-content/uploads/2023/10/slider.jpg" alt="Vinayaka College of Nursing campus building at Sulthan Bathery" loading="eager" width="600" height="920">
-          <img class="wide" src="https://vinayakacollegeofnursing.com/wp-content/uploads/2023/07/bscnursing.jpg" alt="Nursing students of Vinayaka College of Nursing" loading="eager" width="600" height="450">
-          <img class="wide" src="https://vinayakacollegeofnursing.com/wp-content/uploads/2023/07/hostel-facility.jpg" alt="Hostel facility at Vinayaka College of Nursing" loading="lazy" width="600" height="450">
-        </div>
-        <div class="hero__badge">
-          <strong>BSc Nursing &amp; GNM</strong>
-          <span>Approved by INC and Kerala Nurses &amp; Midwives Council</span>
-        </div>
+    <div class="container hero__inner">
+      <div class="hero__content">
+        <h1 class="hero__title">
+          <span class="hero__title-line hero__anim" style="--hero-i:0">Vinayaka College &amp;</span>
+          <span class="hero__title-line hero__title-line--accent hero__anim" style="--hero-i:1">School of Nursing</span>
+        </h1>
+        <a class="hero__cta hero__anim" style="--hero-i:2" href="admission.html#enquiry">
+          <span class="hero__cta-label">Apply Now</span>
+          <span class="hero__cta-arrow" aria-hidden="true"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </a>
       </div>
     </div>
   </section>
@@ -146,7 +122,7 @@
   <section class="section">
     <div class="container split">
       <div data-reveal="left">
-        <p class="eyebrow">About the institution</p>
+        <p class="eyebrow">About us</p>
         <h2>Nursing education in the heart of Wayanad</h2>
         <p>
           To enable further professional growth, and because there is a felt need to develop a deep pride
@@ -169,7 +145,7 @@
       </div>
 
       <div data-reveal="right">
-        <img src="https://vinayakacollegeofnursing.com/wp-content/uploads/2023/07/banner_20180314am043257-1024x418.jpg" alt="Vinayaka College and School of Nursing campus view" loading="lazy" width="1024" height="418" style="border-radius:var(--radius-lg);box-shadow:var(--shadow-md)">
+        <img src="https://vinayakacollegeofnursing.com/wp-content/uploads/2023/07/banner_20180314am043257-1024x418.jpg" alt="Vinayaka College and School of Nursing campus view" width="1024" height="418" decoding="async" loading="lazy" srcset="https://vinayakacollegeofnursing.com/wp-content/uploads/2023/07/banner_20180314am043257-768x313.jpg 768w, https://vinayakacollegeofnursing.com/wp-content/uploads/2023/07/banner_20180314am043257-1024x418.jpg 1024w" sizes="(max-width: 720px) 92vw, (max-width: 1160px) 46vw, 560px" style="border-radius:var(--radius-lg);box-shadow:var(--shadow-md)">
         <ul class="stats" style="margin-top:var(--sp-5)">
           <li><strong>2011</strong><span>Trust formed</span></li>
           <li><strong>5 acres</strong><span>Campus at Sulthan Bathery</span></li>
@@ -185,26 +161,18 @@
     <div class="container">
       <div class="section-head section-head--center" data-reveal>
         <p class="eyebrow">Our courses</p>
-        <h2>The nursing profession &mdash; God&rsquo;s special helper in healing</h2>
-        <p>Vinayaka College &amp; School of Nursing has its goal of planting and harvesting well qualified,
-          skilful and eminent nurses to meet the health needs of the population.</p>
       </div>
 
-      <div class="grid grid--2">
+      <div class="grid grid--2 carousel" data-carousel data-carousel-label="Courses">
         <article class="card" data-reveal data-reveal-delay="1">
           <div class="card__media">
-            <img src="https://vinayakacollegeofnursing.com/wp-content/uploads/2023/07/bscnursing.jpg" alt="BSc Nursing students in a clinical learning session" loading="lazy" width="800" height="500">
+            <img src="https://vinayakacollegeofnursing.com/wp-content/uploads/2023/07/bscnursing.jpg" alt="BSc Nursing students in a clinical learning session" width="900" height="550" decoding="async" loading="lazy" srcset="https://vinayakacollegeofnursing.com/wp-content/uploads/2023/07/bscnursing-300x183.jpg 300w, https://vinayakacollegeofnursing.com/wp-content/uploads/2023/07/bscnursing-768x469.jpg 768w, https://vinayakacollegeofnursing.com/wp-content/uploads/2023/07/bscnursing.jpg 900w" sizes="(max-width: 720px) 92vw, (max-width: 1160px) 46vw, 560px">
           </div>
           <div class="card__body">
             <div class="card__tags">
               <span class="tag">4 years</span>
-              <span class="tag tag--teal">Degree</span>
             </div>
             <h3 class="card__title">BSc. Nursing</h3>
-            <p class="card__text">
-              Approval from the Indian Nursing Council (INC) and the Kerala Nursing Council (KNC).
-              Affiliated to the Kerala University of Health Sciences (KUHS).
-            </p>
             <div class="card__foot">
               <a class="link-arrow" href="courses.html#bsc-nursing">Course details
                 <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
@@ -215,19 +183,13 @@
 
         <article class="card" data-reveal data-reveal-delay="2">
           <div class="card__media">
-            <img src="https://vinayakacollegeofnursing.com/wp-content/uploads/2023/07/bscnursing1.jpg" alt="General Nursing and Midwifery students in training" loading="lazy" width="800" height="500">
+            <img src="https://vinayakacollegeofnursing.com/wp-content/uploads/2023/07/bscnursing1.jpg" alt="General Nursing and Midwifery students in training" width="900" height="550" decoding="async" loading="lazy" srcset="https://vinayakacollegeofnursing.com/wp-content/uploads/2023/07/bscnursing1-300x183.jpg 300w, https://vinayakacollegeofnursing.com/wp-content/uploads/2023/07/bscnursing1-768x469.jpg 768w, https://vinayakacollegeofnursing.com/wp-content/uploads/2023/07/bscnursing1.jpg 900w" sizes="(max-width: 720px) 92vw, (max-width: 1160px) 46vw, 560px">
           </div>
           <div class="card__body">
             <div class="card__tags">
               <span class="tag">3 years</span>
-              <span class="tag tag--teal">Diploma</span>
             </div>
             <h3 class="card__title">GNM (General Nursing)</h3>
-            <p class="card__text">
-              Approved by the Government of Kerala, the Indian Nursing Council (INC) and the
-              Kerala Nursing Council (KNC). Candidates who have passed +2 or equivalent in any group
-              are eligible.
-            </p>
             <div class="card__foot">
               <a class="link-arrow" href="courses.html#gnm">Course details
                 <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
@@ -245,11 +207,11 @@
       <div class="section-head" data-reveal>
         <p class="eyebrow">Facilities &amp; highlights</p>
         <h2>Support that follows every student through the programme</h2>
-        <p>From laboratories and library access to hostel accommodation and community postings &mdash;
-          the facilities listed here are the ones the college publishes for its students.</p>
+        <p>From laboratories and library access to hostel accommodation and community postings, these
+          are the facilities our students use.</p>
       </div>
 
-      <div class="grid grid--3">
+      <div class="grid grid--3 carousel" data-carousel data-carousel-label="Facilities and highlights">
         <div class="feature" data-reveal data-reveal-delay="1">
           <div class="feature__icon" aria-hidden="true">
             <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><path d="M9 3h6M10 3v6.5L5.5 17A3 3 0 0 0 8 21h8a3 3 0 0 0 2.5-4L14 9.5V3"/><path d="M7 15h10"/></svg>
@@ -310,7 +272,7 @@
   <section class="section section--lav">
     <div class="container split">
       <div data-reveal="left">
-        <img src="https://vinayakacollegeofnursing.com/wp-content/uploads/2026/02/00111.jpg" alt="Prof. Dr. Smitha Rani S, Principal of Vinayaka College of Nursing" loading="lazy" width="600" height="700" style="border-radius:var(--radius-lg);box-shadow:var(--shadow-md);width:100%;object-fit:cover;aspect-ratio:4/5">
+        <img src="https://vinayakacollegeofnursing.com/wp-content/uploads/2026/02/00111.jpg" alt="Prof. Dr. Smitha Rani S, Principal of Vinayaka College of Nursing" width="300" height="300" decoding="async" loading="lazy" style="border-radius:var(--radius-lg);box-shadow:var(--shadow-md);width:100%;object-fit:cover;aspect-ratio:4/5">
       </div>
       <div data-reveal="right">
         <p class="eyebrow">From the Principal&rsquo;s desk</p>
@@ -344,11 +306,10 @@
       <div class="section-head" data-reveal>
         <p class="eyebrow">Campus life</p>
         <h2>Gallery</h2>
-        <p>A glimpse of college life, clinical training and campus events. Select any photograph to
-          enlarge it.</p>
+        <p>A glimpse of college life, clinical training and campus events.</p>
       </div>
 
-      <div class="gallery-grid gallery-grid--preview" id="galleryGrid" data-limit="8" data-year-filter="false"></div>
+      <div class="gallery-grid gallery-grid--preview carousel" data-carousel data-carousel-label="Gallery photographs" id="galleryGrid" data-limit="8" data-year-filter="false"></div>
 
       <div class="btn-row" style="margin-top:var(--sp-6)" data-reveal>
         <a class="btn btn--ghost" href="gallery.html">View the full gallery</a>
@@ -416,7 +377,7 @@
   <div class="container site-footer__main">
     <div>
       <div class="footer-brand">
-        <img src="https://vinayakacollegeofnursing.com/wp-content/uploads/2023/04/logo-1.png" alt="Vinayaka College and School of Nursing logo" width="56" height="25" loading="lazy">
+        <img src="https://vinayakacollegeofnursing.com/wp-content/uploads/2023/04/logo-1.png" alt="Vinayaka College and School of Nursing logo" width="278" height="122" decoding="async" loading="lazy">
         <span>Vinayaka College &amp; School of Nursing</span>
       </div>
       <p>
@@ -509,7 +470,7 @@
     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg>
   </button>
   <figure class="lightbox__figure">
-    <img class="lightbox__img" id="lightboxImg" src="" alt="">
+    <img class="lightbox__img" id="lightboxImg" src="" alt="" width="800" height="600" loading="lazy" decoding="async">
     <figcaption class="lightbox__caption">
       <span id="lightboxCaption"></span>
       <span class="lightbox__count" id="lightboxCount"></span>
